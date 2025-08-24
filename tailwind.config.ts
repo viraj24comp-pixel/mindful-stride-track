@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				wellness: {
+					primary: 'hsl(var(--wellness-primary))',
+					secondary: 'hsl(var(--wellness-secondary))',
+					accent: 'hsl(var(--wellness-accent))',
+					success: 'hsl(var(--wellness-success))',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +68,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'wellness-gradient': 'var(--wellness-gradient)',
+			},
+			boxShadow: {
+				'wellness-glow': 'var(--wellness-glow)',
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
